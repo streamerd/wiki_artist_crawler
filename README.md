@@ -1,21 +1,26 @@
 # WikiArtistCrawler
 
-**TODO: Add description**
+Demanding events are not only a case for artists or bands that are alive and active. 
 
-## Installation
+Tribute concerts indeed considered to remember those that are resting in peace.
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `wiki_artist_crawler` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:wiki_artist_crawler, "~> 0.1.0"}
-  ]
-end
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/wiki_artist_crawler](https://hexdocs.pm/wiki_artist_crawler).
+iex(33)> ArtistCareerStatus.is_tributable?("Édith Piaf")
+true
 
+iex(33)> ArtistCareerStatus.is_tributable?("Amy Winehouse")
+true
+
+iex(9)> ArtistCareerStatus.is_tributable?("Cem Karaca")
+true
+
+iex(33)> ArtistCareerStatus.is_tributable?("Jimi Hendrix")
+true
+iex(10)> ArtistCareerStatus.is_tributable?("Baris Manco")
+true
+
+iex(33)> ArtistCareerStatus.is_tributable?("Kurt Kobain")
+true
+
+```

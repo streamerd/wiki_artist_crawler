@@ -1,0 +1,11 @@
+- use selectors to not fail fast if "Died" word not found on the response.
+    > it is only working for wiki pages with right panel, a vcard section.
+
+Active Years - 
+# mw-content-text > div.mw-parser-output > table.infobox.vcard.plainlist > tbody > tr:nth-child(6) > th > span
+
+- use the first sentence 
+    (born day month year - day month year) indicates that the artist is not with us anymore, physically.
+    https://en.wikipedia.org/wiki/%C3%82%C5%9F%C4%B1k_Veysel
+    
+    Âşık Veysel (born Veysel Şatıroğlu; 25 October 1894 – 21 March 1973)

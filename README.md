@@ -6,21 +6,24 @@ Tribute concerts indeed considered to remember those that are resting in peace.
 
 ```
 
-iex(33)> ArtistCareerStatus.is_tributable?("Édith Piaf")
+iex(1)> ArtistCareerStatus.is_tributable?("Édith Piaf")
 true
 
-iex(33)> ArtistCareerStatus.is_tributable?("Amy Winehouse")
+iex(2)> ArtistCareerStatus.is_tributable?("Amy Winehouse")
 true
 
-iex(9)> ArtistCareerStatus.is_tributable?("Cem Karaca")
+iex(3> ArtistCareerStatus.is_tributable?("Cem Karaca")
 true
 
-iex(33)> ArtistCareerStatus.is_tributable?("Jimi Hendrix")
-true
-iex(10)> ArtistCareerStatus.is_tributable?("Baris Manco")
+iex(4)> ArtistCareerStatus.is_tributable?("Jimi Hendrix")
 true
 
-iex(33)> ArtistCareerStatus.is_tributable?("Kurt Kobain")
+iex(5)> ArtistCareerStatus.is_tributable?("Baris Manco")
 true
 
+iex(6)> ArtistCareerStatus.is_tributable?("Kurt Kobain")
+true
+
+iex(7)>ArtistCareerStatus.is_tributable?("Osamu Kitajima")
+true 
 ```
